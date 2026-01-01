@@ -1,32 +1,38 @@
-#  Paruke VPN Platform
+# Paruke VPN Platform
 
-##  Overview
-Automated VPN sales platform built with FastAPI and Telegram Bot. 
-This Backend-first VPN subscription platform designed for automation and scalability.
-Supports FastAPI backend, SQLite MVP database, and Telegram bot integration.
+## Overview
+Automated, backend-first VPN subscription platform built with FastAPI and Telegram Bot for scalable and automated sales.
 
-##  Features
+## Features
 - FastAPI backend with clean project structure
 - User management and subscription logic
 - Timezone-aware UTC datetime handling
 - Telegram bot integration (MVP)
-- Fully documented architecture and decisions
+- Fully documented architecture and technical decisions
 
 ## Architecture
-- Backend-first design
+- Backend-first design prioritizing business logic and automation
 - FastAPI for async and performant APIs
-- SQLite for MVP, easy migration to PostgreSQL/MySQL
+- SQLite for MVP development, easy migration to MySQL/PostgreSQL
 - venv for isolated Python environment
 - UTC timezone standard for all timestamps
 
-##  Tech Stack
+## Tech Stack
+- Python 3.12
 - FastAPI
-- MySQL (SQLite for development)
-- Python
+- SQLite (development), with future migration to MySQL/PostgreSQL
 - Telegram Bot
 
-##  Status
-Phase 1: Backend skeleton (Day 1)
+## Documentation
+- [Architecture](docs/architecture.md)
+- [Decisions](docs/decisions.md)
+- [Roadmap](docs/roadmap.md)
+
+## Status
+Phase 1: Backend Skeleton (Day 1)
+- FastAPI backend initialized
+- User model & UTC datetime convention implemented
+- Project documentation & README completed
 
 ##  Developer(s)
 ParkSook-DEV
