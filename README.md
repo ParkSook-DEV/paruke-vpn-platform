@@ -34,5 +34,12 @@ Phase 1: Backend Skeleton (Day 1)
 - User model & UTC datetime convention implemented
 - Project documentation & README completed
 
+Phase 2: Backed Foundation
+- SQLAlchemy setup with SQLite (paruke.db)
+- User & Subscription models
+- Relationship between User and Subscription
+- End-to-end test endpoint
+- Unique constraint handling for telegram_id
+
 ##  Developer(s)
 ParkSook-DEV

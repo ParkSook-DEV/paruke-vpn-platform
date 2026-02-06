@@ -9,6 +9,15 @@ It aims to provide:
 
 The project is also intentionally designed to be portfolio-worthy, demonstrating real-world backend engineering decisions.
 
+##  Backend Architecture
+- FastAPI as API framework
+- SQLAlchemy ORM for database layer
+- SQLite used for early-stage development
+- Layer structure:
+    - core/ ->  database & config
+    - models/ ->  ORM models
+    - main.py ->  app entry point & test endpoints
+
 ##  Why Backend-First?
 The core value of this product lies in:
 - Subscription logic

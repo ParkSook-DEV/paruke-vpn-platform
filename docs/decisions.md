@@ -32,3 +32,17 @@ Implementation uses:
 `datetime.now(timezone.utc)` instead of deprecated `datetime.utcnow()`
 
 This convention must be respected across the entire backend.
+
+##  ORM & Database
+- Chose SQLAlchemy over raw SQL for maintainability
+- Started with SQLite for fast iteration
+- Will migrate to PostgreSQL later
+
+##  User identity
+- telegram_id is unique
+- Duplicate users are checked before insert
+- Avoids IntegrityError in production
+
+##  Table creation
+- Using Base.metadata.create_all() for MVP
+- Alembic deferred to later phase

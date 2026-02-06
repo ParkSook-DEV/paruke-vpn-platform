@@ -18,6 +18,8 @@ Status: ✅ Completed
 - Database migrations (if needed)
 - Basic admin logic
 
+Status: 🟡 Partially completed
+
 ##  Day 3 – Telegram Bot MVP
 - Telegram bot setup
 - User registration via Telegram
